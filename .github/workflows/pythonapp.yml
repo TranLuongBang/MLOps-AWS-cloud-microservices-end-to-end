@@ -18,6 +18,7 @@ jobs:
     - name: Lint with pylint
       run: |
         #make lint
+        make lint
     - name: Test with pytest
       run: |
         #make test
