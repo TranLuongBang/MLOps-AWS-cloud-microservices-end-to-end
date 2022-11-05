@@ -15,6 +15,7 @@ jobs:
     - name: Install dependencies
       run: |
         make install
+        python -m textblob.download_corpora
     - name: Lint with pylint
       run: |
         #make lint
@@ -25,3 +26,6 @@ jobs:
     - name: Format code
       run: |
         make format
+    - name: Build container
+      run: |
+        make build
