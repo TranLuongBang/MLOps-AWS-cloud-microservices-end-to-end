@@ -6,4 +6,7 @@
 2. Create files: `Makefile`, `requirments.txt`, `main.py`, `Dockerfile`, `mylib`
 3. Setup Continuous Intergration(CI) with Github Action
 4. Build the Image and run Docker Container
+5. Continuous Delivery
+
+![image](https://user-images.githubusercontent.com/18412307/200442365-80468ea9-93b6-4e4a-970e-b27f777f438b.png)
 
