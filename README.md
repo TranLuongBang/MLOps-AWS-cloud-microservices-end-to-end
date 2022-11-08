@@ -4,7 +4,7 @@
 
 1. Create a Python Virtual Environment `python3 -m venv ~/.venv` or `virtualenv ~/.venv`
 2. Create files: `Makefile`, `requirments.txt`, `main.py`, `Dockerfile`, `mylib`
-3. Setup Continuous Intergration(CI) with Github Action
+3. Setup Continuous Intergration(CI) with pythonapp.yml - Github Action
 4. Build the Image and run Docker Container
 5. Continuous Delivery
 
